@@ -1,0 +1,14 @@
+.about-content-mini-heading {
+    font-size: 16px;
+    color: #262a37;
+    font-weight: 600;
+}
+
+.about-us-content-image {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-us-content-image img {
+    width: 100%;
+}

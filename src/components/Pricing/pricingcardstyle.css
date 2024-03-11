@@ -1,0 +1,215 @@
+.single-app-pricing-box.with-border-radius {
+    background: #ffffff;
+    box-shadow: 0 25px 50px 5px rgba(0, 0, 0, .05);
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+}
+
+.single-app-pricing-box {
+    padding: 35px;
+    margin-bottom: 25px;
+    border: 1px solid #d1dbe4;
+    transition: all 0.3s ease-in-out;
+    background: var(--whiteColor);
+    position: relative;
+    z-index: 1;
+}
+
+.single-app-pricing-box.with-border-radius:before {
+    border-radius: 25px;
+}
+
+.single-app-pricing-box.with-border-radius {
+    background: #ffffff;
+    box-shadow: 0 25px 50px 5px rgba(0, 0, 0, .05);
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+}
+
+.single-app-pricing-box:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-app-pricing-box .title {
+    margin-bottom: 25px;
+}
+
+.single-app-pricing-box .title h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-app-pricing-box.with-border-radius .popular {
+    background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-app-pricing-box .popular {
+    display: block;
+    color: #ffffff;
+    font-weight: 500;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.single-app-pricing-box .price {
+    margin-bottom: 25px;
+    line-height: 1;
+    font-size: 42px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-app-pricing-box .price span {
+    position: relative;
+    left: -5px;
+    top: -5px;
+    display: inline-block;
+    color: var(--paragraphColor);
+    font-size: var(--fontSize);
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+
+.default-btn,
+.default-btn:before {
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.default-btn {
+    z-index: 1;
+    border: none;
+    position: relative;
+    padding: 15px 35px;
+    display: inline-block;
+    color: #ffffff !important;
+    box-shadow: 0 12px 35px rgba(237, 39, 117, .25);
+    font-size: var(--fontSize);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.default-btn:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+}
+
+.default-btn,
+.default-btn:before {
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-app-pricing-box .features-list {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.single-app-pricing-box .features-list li {
+    color: #4a4f60;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 22px;
+    transition: all 0.3s ease-in-out;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-app-pricing-box .features-list li i {
+    top: 3px;
+    left: -5px;
+    font-size: 18px;
+    color: #36cc72;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-app-pricing-box .price span {
+    position: relative;
+    left: -5px;
+    top: -5px;
+    display: inline-block;
+    color: #716c80;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-app-pricing-box .features-list li i.fa-times {
+    color: red;
+}
+
+.single-app-pricing-box.active,
+.single-app-pricing-box:hover {
+    border: 1px solid #ed2775;
+}
+
+.single-app-pricing-box.active:before,
+.single-app-pricing-box:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-app-pricing-box.active .features-list li,
+.single-app-pricing-box.active .features-list li i,
+.single-app-pricing-box.active .features-list li i.ri-close-line,
+.single-app-pricing-box:hover .features-list li,
+.single-app-pricing-box:hover .features-list li i,
+.single-app-pricing-box:hover .features-list li i.ri-close-line {
+    color: #ffffff;
+}
+
+.single-app-pricing-box.active .price,
+.single-app-pricing-box.active .price span,
+.single-app-pricing-box.active .title h3,
+.single-app-pricing-box.active .title p,
+.single-app-pricing-box:hover .price,
+.single-app-pricing-box:hover .price span,
+.single-app-pricing-box:hover .title h3,
+.single-app-pricing-box:hover .title p {
+    color: #ffffff;
+}
+
+.single-app-pricing-box.with-border-radius:hover .popular {
+    background: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media(max-width: 800px) {
+    .single-app-pricing-box {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 450px) {
+    .space-top-mobile {
+        margin-top: 30px;
+    }
+}

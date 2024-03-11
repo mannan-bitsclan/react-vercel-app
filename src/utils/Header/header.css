@@ -1,0 +1,97 @@
+nav {
+    background-color: #f6f9fb !important;
+    height: 90px;
+}
+
+.get-started-btn a {
+    background: rgb(240, 52, 109);
+    background: linear-gradient(95deg, rgba(240, 52, 109, 1) 0%, rgba(251, 100, 81, 1) 100%);
+    color: #ffffff;
+    width: 160px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    /* transition: all 0.3s ease-in-out; */
+    box-shadow: 0 12px 35px rgba(237, 39, 117, .25);
+}
+
+.get-started-btn a:hover {
+    background: rgb(240, 52, 109) !important;
+    background: linear-gradient(95deg, rgba(240, 52, 109, 1) 0%, rgb(240, 52, 109) 100%);
+}
+
+.header-links li.nav-item a {
+    font-weight: 500;
+    margin: 0 20px;
+    padding: 0 !important;
+}
+
+img.header-logo {
+    position: relative;
+    z-index: 9;
+    width: 140px;
+}
+
+nav.navbar.navbar-expand-lg.scrolled {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, .09) !important;
+    animation: fadeInDown .5s ease-in-out 0s 1 normal none running;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@media(max-width: 800px) {
+    nav {
+        height: auto !important;
+    }
+
+    .header-links li.nav-item a {
+        margin-bottom: 10px;
+    }
+
+    ul.navbar-nav.header-links.ms-auto.me-auto.mb-2.mb-lg-0 {
+        margin-top: 15px;
+    }
+
+    .get-started-btn {
+        margin-bottom: 30px;
+    }
+
+    div#navbarSupportedContent {
+        z-index: 99;
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 25px 50px 5px rgba(0, 0, 0, .05);
+    }
+
+    nav.navbar.navbar-expand-lg.scrolled div#navbarSupportedContent {
+        box-shadow: none !important;
+    }
+
+    .get-started-btn a {
+        margin-left: 20px;
+    }
+
+    button.navbar-toggler {
+        box-shadow: none !important;
+    }
+}

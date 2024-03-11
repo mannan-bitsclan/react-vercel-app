@@ -1,0 +1,104 @@
+.key-features-card.style-two {
+    position: relative;
+    text-align: start;
+    border-radius: 25px;
+    padding: 30px 30px 30px 125px;
+}
+
+.key-features-card {
+    text-align: center;
+    padding: 30px 40px;
+    border: 1px solid #ffffff;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.key-features-card.style-two:before {
+    border-radius: 25px;
+}
+
+.key-features-card:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.key-features-card:hover:before {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.key-features-card:hover h3,
+.key-features-card:hover p {
+    color: #ffffff !important;
+}
+
+.key-features-card:hover .icon i {
+    border-radius: 0 100px 100px 100px !important;
+}
+
+.key-features-card.style-two .icon {
+    margin-bottom: 0;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.key-features-card .icon {
+    margin-bottom: 25px;
+}
+
+.key-features-card h3,
+.key-features-card p,
+.key-features-card:before {
+    transition: all 0.3s ease-in-out;
+}
+
+.key-features-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #262a37;
+    font-weight: 600;
+}
+
+
+.key-features-card.style-two .icon i {
+    border-radius: 100px 100px 0 100px;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+}
+
+.key-features-card .icon i {
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    background: linear-gradient(221.69deg, #50e1e4, #9a60ea 101.01%);
+    color: #ffffff;
+    border-radius: 0 100px 100px 100px;
+    text-align: center;
+    font-size: 28px;
+    transition: all 0.3s ease-in-out;
+}
+
+.key-features-card.bg-color-two:before {
+    background: linear-gradient(221.69deg, #50e1e4, #9a60ea 101.01%);
+}
+
+.key-features-card .icon.bg2 i {
+    background: linear-gradient(180deg, #ed2775, #ff7448);
+}
+
+.key-features-card p.common-text {
+    margin-bottom: 0 !important;
+}

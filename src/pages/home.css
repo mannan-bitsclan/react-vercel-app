@@ -1,0 +1,245 @@
+.app-about-content .list {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 35px;
+}
+
+.app-about-content .list li {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 75px;
+}
+
+.app-about-content .list li .icon.bg-3 {
+    background: linear-gradient(180deg, #ed2775, #ff7448);
+    border-radius: 50px;
+}
+
+.app-about-content .list li .icon {
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(180deg, #ed2775, #ff7448);
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    left: 0;
+    top: 0;
+    border-radius: 20px 20px 20px 0;
+}
+
+.app-about-content .list li h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.app-about-content .list li .icon i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.grey-background {
+    background-color: #f6f9fb;
+}
+
+.btn-vedio-sec {
+    width: 30%;
+    padding-top: 10px;
+}
+
+.app-intro-video-box {
+    position: relative;
+    border-radius: 10px;
+}
+
+.app-intro-video-box:before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    content: "";
+    opacity: .4;
+    position: absolute;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    background: rgba(34, 36, 50, .52);
+}
+
+.app-intro-video-box img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.app-intro-video-box .video-btn {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%) translateX(-50%);
+    background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+    border-radius: 50%;
+    color: #ffffff;
+    box-shadow: 15px 25px 35px rgba(38, 42, 55, .2);
+    cursor: pointer;
+}
+
+.app-intro-video-box .video-btn:before {
+    animation: ripple 2s linear infinite;
+}
+
+
+@keyframes ripple {
+    0% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.75);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.app-intro-video-box .video-btn:after,
+.app-intro-video-box .video-btn:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+
+.app-intro-video-box .video-btn:after {
+    animation: ripple 2s linear 1s infinite;
+}
+
+.app-intro-video-box .video-btn:after,
+.app-intro-video-box .video-btn:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+
+.app-intro-video-box .intro-video-shape {
+    position: absolute;
+    left: -55px;
+    top: -20px;
+    animation: movebounce 5s linear infinite;
+}
+
+.download-app-image,
+.download-app-image-2 {
+    margin-left: -50px;
+    margin-bottom: 80px !important;
+    animation: movebounce 3s linear infinite;
+}
+
+.download-app-image-2 {
+    position: absolute;
+    right: -65px !important;
+    margin-bottom: 0 !important;
+}
+
+@keyframes movebounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.app-intro-video-box img {
+    border-radius: 30px;
+}
+
+.video-btn.popup-youtube i {
+    font-size: 50px;
+    position: relative;
+    top: -4px;
+    right: -5px;
+}
+
+.gradient-funfacts-area {
+    background: linear-gradient(88.83deg, #ed2775, #ff7448);
+}
+
+.slider-back-light {
+    background-color: #f9f9f9 !important;
+}
+
+h1.brands-slider-text {
+    color: #262a37;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+@media(max-width: 800px) {
+    .btn-vedio-sec {
+        width: 60%;
+    }
+
+    .single-funfacts-card {
+        margin-bottom: 40px;
+    }
+
+    .download-app-image,
+    .download-app-image-2 {
+        margin-left: 0 !important;
+        margin-bottom: 30px !important;
+    }
+
+    .download-app-image-2 {
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+@media(max-width: 450px) {
+    .btn-vedio-sec {
+        width: 50%;
+    }
+
+    .download-app-image,
+    .download-app-image-2 {
+        margin-left: 0 !important;
+    }
+
+    .download-app-image-2 {
+        right: 0 !important;
+        bottom: -70%;
+    }
+}

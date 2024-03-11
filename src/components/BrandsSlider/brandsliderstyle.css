@@ -1,0 +1,13 @@
+.slider-images-brand {
+    width: 100%;
+}
+
+.slider-images-brand img {
+    width: 200px;
+}
+
+@media(max-width: 800px) {
+    .slider-images-brand img {
+        width: 100%;
+    }
+}

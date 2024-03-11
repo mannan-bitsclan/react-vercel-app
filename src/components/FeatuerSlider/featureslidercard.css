@@ -1,0 +1,21 @@
+.slider-images {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.slider-images img {
+    width: 100%;
+}
+
+ul.slick-dots {
+    bottom: -50px;
+}
+
+.slick-dots li button:before {
+    color: #ff7448 !important;
+    font-size: 18px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+}

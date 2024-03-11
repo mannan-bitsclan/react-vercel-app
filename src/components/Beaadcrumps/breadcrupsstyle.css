@@ -1,0 +1,23 @@
+ul.breadcrups-links-text {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px
+}
+
+ul.breadcrups-links-text li:first-child {
+    list-style: none;
+    text-transform: capitalize !important;
+}
+
+ul.breadcrups-links-text li a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #292929;
+    font-size: 14px;
+}
+
+.bread-crups-nav-back {
+    background-color: transparent !important;
+    height: 100% !important;
+}

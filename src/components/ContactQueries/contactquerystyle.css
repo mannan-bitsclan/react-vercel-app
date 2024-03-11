@@ -1,0 +1,131 @@
+.contact-info-inner {
+    background: linear-gradient(26.1deg, #ed2775, #ff7448);
+    padding: 100px 100px 75px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-info-inner h2 {
+    color: #ffffff;
+    line-height: 1.4;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.contact-info-inner .single-contact-info-box {
+    padding: 30px;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+}
+
+.contact-info-inner .single-contact-info-box .icon.bg1 {
+    background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
+}
+
+.contact-info-inner .single-contact-info-box .icon i {
+    left: 0;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #ffffff;
+}
+
+.contact-info-inner .single-contact-info-box h3 {
+    line-height: 1.5;
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-info-inner .single-contact-info-box h3:last-child {
+    margin-bottom: 0;
+}
+
+.lines,
+.lines .line {
+    top: 0;
+    height: 100%;
+    position: absolute;
+}
+
+.lines {
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+    margin: auto;
+}
+
+.lines .line:first-child {
+    margin-left: -35%;
+}
+
+.lines .line {
+    left: 50%;
+    width: 1px;
+    overflow: hidden;
+    background: hsla(0, 0%, 100%, .1);
+}
+
+.lines,
+.lines .line {
+    top: 0;
+    height: 100%;
+    position: absolute;
+}
+
+.lines .line:first-child:after {
+    animation-delay: 2s;
+}
+
+.lines .line:after {
+    left: 0;
+    top: -50%;
+    width: 100%;
+    content: "";
+    height: 15vh;
+    display: block;
+    position: absolute;
+    animation: run 7s 0s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.4, .26, 0, .97);
+    background: linear-gradient(to bottom, hsla(0, 0%, 100%, 0) 0, #ffffff 75%, #ffffff 100%);
+}
+
+@keyframes run {
+    0% {
+        top: -50%;
+    }
+
+    100% {
+        top: 110%;
+    }
+}
+
+.contact-info-inner .single-contact-info-box .icon {
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    position: relative;
+    border-radius: 50%;
+    color: var(--whiteColor);
+    background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.contact-info-inner .single-contact-info-box .icon.bg2 {
+    background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
+}
+
+.single-contact-info-box a {
+    color: #000000;
+    text-decoration: none;
+}

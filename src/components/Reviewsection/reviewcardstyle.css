@@ -1,0 +1,54 @@
+.single-funfacts-card {
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-funfacts-card:hover {
+    transform: translateY(-5px);
+}
+
+.single-funfacts-card .icon {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.single-funfacts-card .icon i {
+    font-size: 32px;
+    background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 17px;
+}
+
+.single-funfacts-card p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.single-funfacts-card h3 {
+    margin-bottom: 0;
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.single-funfacts-card h3 .sign {
+    font-size: 25px;
+    position: relative;
+    left: 2px;
+}
+
+@media(max-width: 450px) {
+    .single-funfacts-card {
+        margin-bottom: 40px;
+    }
+}
