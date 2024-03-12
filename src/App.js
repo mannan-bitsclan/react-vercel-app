@@ -19,10 +19,10 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <LoadingBar
+        {/* <LoadingBar
           color='#f11946'
           progress={progress}
-        />
+        /> */}
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
