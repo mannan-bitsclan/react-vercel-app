@@ -10,6 +10,7 @@ import Blog from './pages/Blog.jsx';
 import Services from './pages/Services.jsx';
 import Blogdetail from './pages/Blogdetail.jsx';
 import LoadingBar from 'react-top-loading-bar';
+import ScrollToTop from './components/ScrollTop/ScrollToTop.jsx';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           color='#f11946'
           progress={progress}
         /> */}
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
