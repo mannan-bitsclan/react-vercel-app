@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
@@ -8,12 +9,20 @@ import FooterBox from './utils/Footer/FooterBox.jsx';
 import Blog from './pages/Blog.jsx';
 import Services from './pages/Services.jsx';
 import Blogdetail from './pages/Blogdetail.jsx';
+import LoadingBar from 'react-top-loading-bar';
 
 function App() {
+
+  const [progress, setProgress] = useState(10);
+
   return (
     <>
       <BrowserRouter>
         <Navbar />
+        <LoadingBar
+          color='#f11946'
+          progress={progress}
+        />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />

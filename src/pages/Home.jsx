@@ -194,7 +194,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className='space-section'>
+            {/* <section className='space-section'>
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-4 col-lg-4 col-md-12 xl:mt-5 lg:mt-5">
@@ -210,7 +210,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <BrandsSlider />
 

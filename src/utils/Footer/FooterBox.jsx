@@ -64,7 +64,7 @@ const FooterBox = () => {
 
                     <div className="row">
                         <div className="col-md-12">
-                            <h6 className='footer-copyright'>Copyright © 2024 Texap. All Rights Reserved by <a href="#">Bitsclan IT Solutions</a></h6>
+                            <h6 className='footer-copyright'>Copyright © 2024 All Rights Reserved by <a href="#">Bitsclan IT Solutions</a></h6>
                         </div>
                     </div>
                 </div>
