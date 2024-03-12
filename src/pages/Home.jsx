@@ -144,7 +144,7 @@ const Home = () => {
                         </div>
 
                         <div className="col-md-6 pt-4">
-                            <Heading subheading={"INTRO VIDEO"} mainheading={`Watch Our Most Watched Texap App Video`} />
+                            <Heading subheading={"INTRO VIDEO"} mainheading={`Watch Our Most Watched App Video`} />
                             <p data-aos="fade-up" className='common-text'>Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. Never missyour chance its just began. Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text.Never missyour chance its just began.</p>
 
                             <div className="btn-vedio-sec">

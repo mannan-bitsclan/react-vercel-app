@@ -19,7 +19,7 @@ const Herosection = () => {
                         <div className="col-md-6">
                             <img src="assets/images/shape-5.png" className="banner-shape-image" alt="" />
                             <div className="text-box">
-                                <h1 data-aos="fade-up">Manage All Of Your Stuff</h1>
+                                <h1 data-aos="fade-up">ANDROID APP DEVELOPMENT COMPANY</h1>
                                 <p data-aos="fade-up">In the hustle and bustle of modern life, keeping track of our belongings can be a daunting task.From important documents to sentimental items, managing our possessions efficiently is crucial for maintaining organization and peace of mind.</p>
                                 <div className="images-text-box">
                                     <div className="images-box" data-aos="fade-up">
