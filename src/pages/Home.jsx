@@ -38,7 +38,7 @@ const Home = () => {
                                 <p className='common-text' data-aos="fade-up">Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. Never missyour chance its just began.</p>
                                 <p className="common-text" data-aos="fade-up">Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want chance its just began.</p>
                                 <div className="d-flex align-items-center mt-4">
-                                    <Buttonprimary btnPrimaryText={"Start Free Trail"} />
+                                    <Buttonprimary btnPrimaryText={"Explore More"} />
                                     <Buttonsecondry btnSecondryText={"See All Features"} />
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ const Home = () => {
                             </ul>
 
                             <div className="d-flex align-items-center">
-                                <Buttonprimary btnPrimaryText={"Start Free Trail"} />
+                                <Buttonprimary btnPrimaryText={"Explore More"} />
                                 <Buttonsecondry btnSecondryText={"See All Features"} />
                             </div>
                         </div>
@@ -106,7 +106,7 @@ const Home = () => {
 
                     <div className="row mt-4">
                         <div className="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 m-auto">
-                            <Buttonprimary btnPrimaryText={"Start Free Trial"} />
+                            <Buttonprimary btnPrimaryText={"Explore More"} />
                         </div>
                     </div>
                 </div>

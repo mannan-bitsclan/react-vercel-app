@@ -21,7 +21,8 @@ const Herosection = () => {
                             <div className="text-box">
                                 <h1 data-aos="fade-up">ANDROID APP DEVELOPMENT COMPANY</h1>
                                 <p data-aos="fade-up">In the hustle and bustle of modern life, keeping track of our belongings can be a daunting task.From important documents to sentimental items, managing our possessions efficiently is crucial for maintaining organization and peace of mind.</p>
-                                <div className="images-text-box">
+                                <p data-aos="fade-up">Welcome to our premier destination for top-tier Android app development services. Harness the power of the world's most popular mobile platform with our team of skilled developers and designers.</p>
+                                {/* <div className="images-text-box">
                                     <div className="images-box" data-aos="fade-up">
                                         <img src="assets/images/user4.jpg" alt="" />
                                         <img src="assets/images/user4.jpg" alt="" />
@@ -29,7 +30,7 @@ const Herosection = () => {
                                         <img src="assets/images/user4.jpg" alt="" />
                                     </div>
                                     <span data-aos="fade-up">4K+ used this App</span>
-                                </div>
+                                </div> */}
 
                                 {/* <Downloadbutton /> */}
                             </div>

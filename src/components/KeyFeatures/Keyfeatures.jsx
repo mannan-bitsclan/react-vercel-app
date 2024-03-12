@@ -99,7 +99,7 @@ const Keyfeatures = () => {
 
                     <div className="row justify-content-center mt-4">
                         <div className="col-lg-2 col-md-4">
-                            <Buttonprimary btnPrimaryText={"Start Free Trial"} />
+                            <Buttonprimary btnPrimaryText={"Explore More"} />
                         </div>
                     </div>
                 </div>

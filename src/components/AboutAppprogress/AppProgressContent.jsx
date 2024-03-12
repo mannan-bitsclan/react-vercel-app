@@ -28,7 +28,7 @@ const AppProgressContent = () => {
                             <p data-aos="fade-up" className='common-text'>Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. Never missyour chance its just began.</p>
                             <p data-aos="fade-up" className="common-text">Most provabily best for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy backup just log in with your mail account from.</p>
                             <div className="col-lg-4 col-md-8 mt-4">
-                                <Buttonprimary btnPrimaryText={"Start Free Trial"} />
+                                <Buttonprimary btnPrimaryText={"Explore More"} />
                             </div>
                         </div>
                     </div>

@@ -25,7 +25,7 @@ const AboutUsContent = () => {
                             <h3 data-aos="fade-up" className="about-content-mini-heading">Our Mission</h3>
                             <p data-aos="fade-up" className="common-text">Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy of your business purpose text.</p>
                             <div className="d-flex mt-4 align-items-center">
-                                <Buttonprimary btnPrimaryText={"Start Free Trial"} />
+                                <Buttonprimary btnPrimaryText={"Explore More"} />
                                 <Buttonsecondry btnSecondryText={"See All Feature"} />
                             </div>
                         </div>
