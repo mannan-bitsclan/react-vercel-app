@@ -31,7 +31,7 @@ const Herosection = () => {
                                     <span data-aos="fade-up">4K+ used this App</span>
                                 </div>
 
-                                <Downloadbutton />
+                                {/* <Downloadbutton /> */}
                             </div>
                         </div>
 

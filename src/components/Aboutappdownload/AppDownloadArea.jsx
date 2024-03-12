@@ -20,7 +20,7 @@ const AppDownloadArea = () => {
                                     <span className="sub-title">DOWNLOAD APP</span>
                                     <h2>Let's Get Your Free Copy From Apple and Play Store</h2>
                                     <p>Instant free download from store Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text.</p>
-                                    <div className="btn-box">
+                                    {/* <div className="btn-box">
                                         <a href="https://play.google.com/store/apps" className="playstore-btn" target="_blank">
                                             <img alt="image" loading="lazy" width={27} height={30} decoding="async" data-nimg={1} src="assets/images/play-store.png" style={{ color: 'transparent' }} />
                                             Get It On
@@ -30,7 +30,7 @@ const AppDownloadArea = () => {
                                             <img alt="image" loading="lazy" width={34} height={35} decoding="async" data-nimg={1} src="assets/images/apple-store.png" style={{ color: 'transparent' }} />
                                             Download on the<span>Apple Store</span>
                                         </a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div data-aos="fade-up" className="col-lg-6 col-md-12">

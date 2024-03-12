@@ -165,7 +165,7 @@ const Home = () => {
                             <Heading subheading={"DOWNLOAD APP"} mainheading={`Let's Get Your Free Copy From Apple and Play Store`} />
                             <p data-aos="fade-up" className="common-text">Instant free download from store Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text.</p>
 
-                            <Downloadbutton />
+                            {/* <Downloadbutton /> */}
                             <img src="assets/images/shape-2.png" className='download-app-image-2' alt="" />
                         </div>
 
