@@ -76,7 +76,7 @@ const Home = () => {
                                 </li>
                                 <li data-aos="fade-up">
                                     <div className="icon bg-3">
-                                        <i className="fas fa-medal"></i>
+                                        <i className="fas fa-cloud"></i>
                                     </div>
                                     <h3>Cloud Storage</h3>
                                     <p className='common-text'>Just log in with your mail account from play store and using whatever you want for your business purpose.</p>
@@ -105,7 +105,7 @@ const Home = () => {
                     </div>
 
                     <div className="row mt-4">
-                        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 m-auto">
+                        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12 m-auto">
                             <Buttonprimary btnPrimaryText={"Explore More"} />
                         </div>
                     </div>

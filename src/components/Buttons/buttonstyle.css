@@ -12,17 +12,19 @@ a.btn-background-dark {
     transition: all 0.3s ease-in-out;
     box-shadow: 0 12px 35px rgba(237, 39, 117, .25);
     margin-right: 25px;
+    background: rgb(240, 52, 109);
+    background: linear-gradient(95deg, rgba(240, 52, 109, 1) 0%, rgba(251, 100, 81, 1) 100%);
 }
 
 a.btn-background-dark:hover {
-    background-color: #ed2775 !important;
+    background: #ed2775 !important;
 }
 
-a.btn-background-dark:hover:before {
+/* a.btn-background-dark:hover:before {
     opacity: 0;
-}
+} */
 
-a.btn-background-dark:before {
+/* a.btn-background-dark:before {
     position: absolute;
     content: '';
     left: 0;
@@ -34,7 +36,7 @@ a.btn-background-dark:before {
     z-index: -1;
     background: rgb(240, 52, 109);
     background: linear-gradient(95deg, rgba(240, 52, 109, 1) 0%, rgba(251, 100, 81, 1) 100%);
-}
+} */
 
 a.btn-secondry-light {
     font-size: 14px;

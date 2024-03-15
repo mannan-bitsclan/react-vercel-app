@@ -28,6 +28,11 @@ nav {
     font-weight: 500;
     margin: 0 20px;
     padding: 0 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-links li.nav-item a:hover {
+    color: #f0376b;
 }
 
 img.header-logo {
@@ -94,4 +99,29 @@ nav.navbar.navbar-expand-lg.scrolled {
     button.navbar-toggler {
         box-shadow: none !important;
     }
+}
+
+@media(max-width: 330px) {
+    img.banner-shape-image {
+        width: 280px !important;
+    }
+
+    .swiper-button-next {
+        right: -30px !important;
+    }
+    .swiper {
+        width: 85% !important;
+    }
+
+    .app-intro-video-box .intro-video-shape {
+        left: 0 !important;
+    }
+
+    .swiper-button-prev {
+        left: -30px !important;
+    }
+}
+
+button.navbar-toggler {
+    z-index: 99;
 }

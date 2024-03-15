@@ -102,3 +102,20 @@
 .key-features-card p.common-text {
     margin-bottom: 0 !important;
 }
+
+@media(max-width: 450px) {
+    .key-features-card.style-two .icon i {
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 23px;
+        line-height: 2.3;
+    }
+
+    .col-xl-2.col-lg-2.col-md-4.col-sm-6.col-12.m-auto {
+        width: 60%;
+    }
+
+    .key-features-card.style-two {
+        padding: 30px 30px 30px 95px !important;
+    }
+}

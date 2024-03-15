@@ -233,6 +233,15 @@ h1.brands-slider-text {
         width: 50%;
     }
 
+    .app-intro-video-box .intro-video-shape {
+        display: none;
+    }
+
+    .app-intro-video-box,
+    .app-intro-video-box img {
+        height: 300px;
+    }
+
     .download-app-image,
     .download-app-image-2 {
         margin-left: 0 !important;
@@ -241,5 +250,14 @@ h1.brands-slider-text {
     .download-app-image-2 {
         right: 0 !important;
         bottom: -70%;
+    }
+
+    .app-about-content .list li .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .app-about-content .list li {
+        padding-left: 60px;
     }
 }

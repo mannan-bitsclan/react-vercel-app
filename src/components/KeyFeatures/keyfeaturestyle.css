@@ -86,6 +86,16 @@
 .single-features-item .icon.bg5 {
     background: linear-gradient(43.32deg, #6a55f8 14.73%, #ca48f6 86.35%, #ca48f6 0);
 }
+
 .single-features-item .icon.bg6 {
     background: linear-gradient(45deg, #6a55f8, #ee6c74);
+}
+
+@media(max-width: 450px) {
+
+    a.btn-background-dark,
+    a.btn-background-dark {
+        margin-right: 0 !important;
+    }
+
 }
