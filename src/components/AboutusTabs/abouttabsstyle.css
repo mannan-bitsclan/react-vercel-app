@@ -124,4 +124,9 @@ button.active:before {
     .space-top-remove-mobile {
         margin-top: 0 !important;
     }
+
+    .svg-one-left,
+    .svg-one-right {
+        width: 130px;
+    }
 }
