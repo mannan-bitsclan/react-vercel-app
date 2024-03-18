@@ -127,6 +127,6 @@ button.active:before {
 
     .svg-one-left,
     .svg-one-right {
-        width: 130px;
+        width: 130px !important;
     }
 }
