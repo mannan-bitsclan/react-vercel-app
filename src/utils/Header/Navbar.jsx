@@ -29,9 +29,9 @@ const Navbar = () => {
         <>
             <nav className={`navbar navbar-expand-lg ${scrolled ? 'scrolled' : ''}`}>
                 <div className="container">
-                    <a className="navbar-brand" href="#">
+                    <Link className="navbar-brand" to="/">
                         <img src="assets/images/black-logo.png" className='header-logo' alt="" />
-                    </a>
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>
@@ -42,7 +42,7 @@ const Navbar = () => {
                             </li>
 
                             <li className="nav-item">
-                                <Link to='/about' className="nav-link active">About Us</Link>
+                                <Link to='/AboutUs' className="nav-link active">About Us</Link>
                             </li>
 
                             <li className="nav-item">

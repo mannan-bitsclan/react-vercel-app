@@ -15,7 +15,7 @@ const SoftwareIntigration = () => {
         <>
             <section className='space-section'>
                 <div className="container">
-                    <div className="row">
+                    <div className="row reverse-mobile">
                         <div className="col-md-6">
                             <Heading subheading={"SOFTWARE INTEGRATIONS"} mainheading={"Easy & Perfect Solution With Latest Software Integrations"} />
                             <p data-aos="fade-up" className='common-text'>Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. Never missyour chance its just began.</p>
@@ -26,7 +26,7 @@ const SoftwareIntigration = () => {
                         </div>
 
                         <div className="col-md-6">
-                            <div className="about-us-content-image">
+                            <div className="about-us-content-image space-bottom-mobile">
                                 <img src="assets/images/intigration.png" alt="" />
                             </div>
                         </div>

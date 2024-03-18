@@ -5,6 +5,10 @@ ul.breadcrups-links-text {
     margin-top: 15px
 }
 
+ul.breadcrups-links-text li a:hover {
+    color: #f95e54;
+}
+
 ul.breadcrups-links-text li:first-child {
     list-style: none;
     text-transform: capitalize !important;

@@ -130,6 +130,17 @@
     right: -70px;
 }
 
+@media (max-width: 450px) {
+    .tab-buttons button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .video-box .shape img {
+        display: none;
+    }
+}
+
 @media (max-width: 800px) {
     .video-box {
         max-width: 100%;
@@ -142,4 +153,32 @@
     .about-us-content-image {
         width: 100%;
     }
+}
+
+.modal-dialog {
+    max-width: 900px !important;
+}
+
+.btn-close {
+    position: absolute;
+    right: -10px !important;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1 !important;
+    z-index: 99;
+    border-radius: 100px;
+    cursor: pointer !important;
+}
+
+.modal-content {
+    background-color: transparent !important;
+    border: none;
+}
+
+.modal-header {
+    border: none;
 }

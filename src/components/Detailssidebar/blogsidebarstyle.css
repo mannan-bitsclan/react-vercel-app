@@ -182,15 +182,22 @@
     padding: 0 !important;
 }
 
+@media (max-width: 450px) {
+    .wp-block-gallery.columns-3 li {
+        flex: 0 0 50%;
+        max-width: 105px !important;
+        height: 80px;
+    }
+}
+
 @media (max-width: 800px) {
     .blog-detail-image {
         object-fit: cover;
         height: 350px;
     }
 
-    .wp-block-gallery.columns-3 li {
-        flex: 0 0 50%;
-        max-width: 50% !important;
+    .wp-block-gallery.columns-3 li figure img {
+        height: 120px;
     }
 
     .article-footer {

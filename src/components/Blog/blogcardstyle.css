@@ -8,6 +8,10 @@
     height: 300px;
 }
 
+.single-blog-post:hover .content h3 a {
+    text-decoration: underline;
+}
+
 .single-blog-post:hover .image img {
     transform: scale(1.05);
 }
@@ -51,6 +55,12 @@
 .single-blog-post .content ul li a {
     font-size: 14px;
     color: #716c80;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-blog-post .content ul li a:hover {
+    color: #ed2775;
 }
 
 .single-blog-post .content ul li i {

@@ -1,0 +1,5 @@
+@media(max-width: 450px) {
+    .space-bottom-mobile {
+        margin-bottom: 30px;
+    }
+}

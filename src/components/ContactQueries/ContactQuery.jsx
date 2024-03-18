@@ -13,7 +13,7 @@ const ContactQuery = () => {
         <>
             <section className="space-section">
                 <div className="container">
-                    <div className="contact-info-inner">
+                    <div className="contact-info-inner sapce-control-mobile">
                         <h2>Have any question in mind please call or mail us</h2>
                         <div className="row justify-content-center">
                             <div className="col-lg-4 col-md-6 col-sm-6" data-aos="fade-up">

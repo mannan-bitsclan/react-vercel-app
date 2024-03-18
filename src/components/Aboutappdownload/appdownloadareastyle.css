@@ -241,6 +241,7 @@
 @media(max-width: 450px) {
     .app-download-inner {
         padding-left: 0px !important;
+        padding-right: 0 !important;
     }
 
     .app-download-inner:before {
@@ -253,6 +254,10 @@
 
     .app-download-content {
         padding: 20px !important;
+    }
+
+    .app-download-content h2 {
+        font-size: 23px !important;
     }
 
     .app-download-content .btn-box .playstore-btn,

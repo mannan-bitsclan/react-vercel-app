@@ -30,6 +30,7 @@
 
 .tab-content-box {
     text-align: center;
+    position: relative;
 }
 
 .tab-content-box h6 {
@@ -51,6 +52,24 @@
     width: 80%;
     margin: 0 auto;
     line-height: 2;
+}
+
+.svg-one-left {
+    opacity: .04;
+    position: absolute;
+    width: 200px;
+    line-height: 1;
+    top: -60px;
+    left: 12%;
+}
+
+.svg-one-right {
+    opacity: .04;
+    position: absolute;
+    width: 200px;
+    line-height: 1;
+    bottom: 20px;
+    right: 19%;
 }
 
 .tab-buttons button {
@@ -99,4 +118,10 @@ button.active img {
 
 button.active:before {
     transform: scale(1);
+}
+
+@media (max-width: 450px) {
+    .space-top-remove-mobile {
+        margin-top: 0 !important;
+    }
 }

@@ -11,7 +11,8 @@ const AboutVedio = () => {
 
     return (
         <>
-            <section className="space-section pb-0">
+
+            <section className="space-section pb-0" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
                 <div className="video-area" data-aos="fade-up">
                     <div className="container">
                         <div className="video-box">
@@ -27,6 +28,24 @@ const AboutVedio = () => {
                     </div>
                 </div>
             </section>
+
+            <div>
+                <div className="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabIndex={-1}>
+                    <div className="modal-dialog modal-dialog-centered">
+                        <div className="modal-content">
+                            <div className="modal-header p-0">
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
+                            </div>
+                            <div className="modal-body p-0">
+                                {/* <iframe width="900" height="500" src="https://www.youtube.com/embed/owiwCIhc0I0?si=hekeIRIddQyll1Wx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+                                <iframe id="vimeoVideo" width="900" height="500" class="w-100" src="https://player.vimeo.com/video/891558975" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
 
         </>
     )

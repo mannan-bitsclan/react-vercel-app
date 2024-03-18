@@ -129,3 +129,13 @@
     color: #000000;
     text-decoration: none;
 }
+
+@media(max-width: 450px) {
+    .contact-info-inner.sapce-control-mobile {
+        padding: 30px !important;
+    }
+
+    .contact-info-inner .single-contact-info-box h3 {
+        font-size: 16px !important;
+    }
+}

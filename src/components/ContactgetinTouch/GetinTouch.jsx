@@ -56,7 +56,7 @@ const GetinTouch = () => {
                                             </div>
                                         </div>
 
-                                        <div className="col-md-12">
+                                        <div className="col-md-12 flex-center-box">
                                             <button type='submit' className="form-btn-box">
                                                 <Buttonprimary btnPrimaryText={"Send Message"} />
                                             </button>

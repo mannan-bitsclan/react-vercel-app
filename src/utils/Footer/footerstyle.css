@@ -93,3 +93,40 @@ h6.footer-copyright a:hover {
 .footer-logo img {
     width: 140px !important;
 }
+
+ul.social-icons {
+    padding: 0;
+    display: flex;
+}
+
+
+ul.social-icons li a i {
+    color: #ffffff;
+    background-color: #383d4a !important;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+ul.social-icons li a i:hover {
+    box-shadow: 0px 0px 20px 20px rgb(255 255 255 / 16%);
+}
+
+ul.social-icons li a {
+    text-decoration: none;
+}
+
+.social-icons li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+@media(max-width: 450px) {
+    .footer-box {
+        padding: 40px 0 0 0;
+    }
+}
